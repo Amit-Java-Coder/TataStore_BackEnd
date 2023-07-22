@@ -1,0 +1,11 @@
+package com.watch.store.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.watch.store.entity.CartItem;
+
+public interface CartItemRepository extends JpaRepository<CartItem,Integer>{
+
+}
